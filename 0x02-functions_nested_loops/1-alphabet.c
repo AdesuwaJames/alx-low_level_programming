@@ -10,6 +10,4 @@ void print_alphabet(void)
 		putchar(letter);
 
 	putchar('\n');
-
-	return (0);
 }
