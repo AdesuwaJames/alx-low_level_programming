@@ -2,14 +2,15 @@
 #include <stdio.h>
 
 /**
- * strlen() returns the length of a string
- * @a: represents the string
+ * _strlen - a function that returns the length of a string
+ * @s: represents the string
+ * Return: length of string
  */
 int _strlen(char *s)
 {
 	char s[100];
-	gets (s);
 
+	gets(s);
 	printf("Length = %d\n", strlen(s));
 
 	return (0);
