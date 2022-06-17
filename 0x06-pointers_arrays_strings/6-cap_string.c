@@ -3,7 +3,7 @@
 /**
  * cap_string - a function that capitalizes all words of a string
  * @n: input string
- * Return: caps on first letter of a seperator
+ * Return: caps on first letter of a separator
  */
 char *cap_string(char *n)
 {
@@ -23,7 +23,7 @@ char *cap_string(char *n)
 
 		for (x = 0; x <= 12; x++)
 		{
-			if (n[i] == seperators[x])
+			if (n[i] == separators[x])
 			{
 				x = 12;
 				cap = 32;
